@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ParkPanda</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="all_data_correct">Close navigation drawer</string>
+    <string name="password_too_short">Password is too short</string>
+    <string name="car_number_invalid">Type Car Licence Number</string>
+    <string name="password_invalid">Password is incorrect</string>
+    <string name="facebook_app_id">1190715200980143</string>
+    <string name="FIREBASE_URL">"https://parkpanda-1372.firebaseio.com/"</string>
+
+     <string name="large_text">
+       "Hourly, daily and monthly parking available at the NCP London Shaftesbury car park.\n\n"
+        "If you're driving a van please be aware that there's a height restriction of 1.83m.\n\n"
+        "For a season ticket please click on the 'Long Term' tab and complete the booking request form.\n\n"
+        "Available to book instantly online for hourly and daily bookings.\n\n"
+        "Your booking allows you to enter and exit the car park once and by booking online you guarantee yourself\n\n"
+        "a space and also receive up to 15% off the pay and display rates."
+    </string>
+    <string name="title_activity_find_park">FindPark</string>
+</resources>

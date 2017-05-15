@@ -1,0 +1,70 @@
+{
+  "project_info": {
+    "project_number": "382545602593",
+    "firebase_url": "https://parkpanda-1372.firebaseio.com",
+    "project_id": "parkpanda-1372",
+    "storage_bucket": "parkpanda-1372.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:382545602593:android:008616bf12ab22f7",
+        "android_client_info": {
+          "package_name": "com.example.angel.parkpanda"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "382545602593-7ouun0edivg1q8n94q3dvajktnle6bo7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.angel.parkpanda",
+            "certificate_hash": "0918B70714EC92A3FD828C2C80120AB7C317CC46"
+          }
+        },
+        {
+          "client_id": "382545602593-4sfn7ibfps1cbsk1ouc4s7t916p2edgu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.angel.parkpanda",
+            "certificate_hash": "FC7328AB23EAE82D91607B7A71A57F216E5F6B1D"
+          }
+        },
+        {
+          "client_id": "382545602593-qn148uckg47eoroseptubfn5pr9ha3ul.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0-elqBlKj064L4e7lbmwJ2PXpzKxZB2Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "382545602593-gmo8ssq8r1tbu90vl34ii44h9un47flc.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.adnet.ParkPanda"
+              }
+            },
+            {
+              "client_id": "382545602593-qn148uckg47eoroseptubfn5pr9ha3ul.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

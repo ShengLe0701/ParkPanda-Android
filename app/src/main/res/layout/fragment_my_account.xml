@@ -1,0 +1,125 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/frag_myaccount_layout"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/ac_view_firstname"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="170dp"
+                    android:textColor="@color/colorGreen"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:inputType="textPersonName"
+                    android:imeOptions="actionUnspecified"
+                    android:hint="FirstName"
+                    android:ems="10"
+                    android:id="@+id/txt_myaccount_firstname" />
+            </android.support.design.widget.TextInputLayout>
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="wrap_content"
+                android:id="@+id/ac_view_lastname"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:layout_width="wrap_content"
+                    android:paddingLeft="10dp"
+                    android:textColor="@color/colorGreen"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:hint="LastName"
+                    android:ems="10"
+                    android:id="@+id/txt_myaccount_latname" />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ac_view_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:paddingTop="5dp"
+                android:hint="Email"
+                android:textColor="@color/colorGreen"
+                android:ems="10"
+                android:id="@+id/txt_myaccount_email"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ac_view_carno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:hint="Car Licence Number"
+                android:ems="10"
+                android:id="@+id/txt_myaccount_carno"
+                android:inputType="textCapCharacters|text" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/ac_view_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="DONE"
+            android:background="@drawable/ripple_effect"
+
+            android:textColor="#FFFFFF"
+            android:id="@+id/btn_myaccount_done" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text=""
+            android:paddingTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/txt_myaccount_changepass" />
+
+
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sign Out"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/ripple_effect"
+        android:id="@+id/btn_myaccount_signout"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        />
+</RelativeLayout>

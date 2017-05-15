@@ -1,0 +1,145 @@
+<android.support.v4.widget.NestedScrollView android:id="@+id/bottom_sheet_scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="true"
+    android:background="#FFFFFF"
+    android:scrollbarFadeDuration="0"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:layout_width="match_parent"
+            android:background="@drawable/parkimages"
+            android:layout_height="200dp"
+            android:id="@+id/imageView" />
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="$ 4.00/hour"
+            android:id="@+id/detail_money"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/redbar"
+            android:layout_alignBottom="@+id/imageView"
+            android:layout_marginBottom="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Opening Times"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/textView3"
+            android:layout_marginTop="10dp"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="6.00 AM-11.00 PM"
+            android:textSize="18dp"
+            android:id="@+id/detail_time"
+            android:layout_below="@+id/textView3"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Parking Name"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/detail_time"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:textSize="18dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="6-7 Weymouth Mews, London W1B 1QE, United Kingdom"
+            android:id="@+id/detail_address"
+            android:layout_below="@+id/textView5"
+            android:layout_centerHorizontal="true"
+        />
+
+        <TextView
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Information "
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:id="@+id/textView7"
+            android:layout_below="@+id/detail_address"
+             />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="NCP Portland Place is just a short walk to the open space of Regents Park where you can experience the delights of Queen Mary’s Garden."
+            android:id="@+id/detail_about"
+            android:textSize="18dp"
+            android:layout_below="@+id/textView7"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_width="250dp"
+            android:layout_marginBottom="10dp"
+            android:layout_height="50dp"
+            android:background="@drawable/ripple_effect"
+            android:id="@+id/reserve_button"
+            android:textColor="#FFFFFF"
+            android:textSize="15dp"
+            android:layout_below="@+id/detail_about"
+            android:text="PAYMENT"/>
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:textColor="#FF0000"
+            android:layout_gravity="center"
+            android:layout_below="@+id/reserve_button"
+            android:id="@+id/txt_error_text" />
+
+
+    </RelativeLayout>
+
+</android.support.v4.widget.NestedScrollView>

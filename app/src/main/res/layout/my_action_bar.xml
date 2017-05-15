@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:background="@color/colorGray"
+        android:minHeight="?attr/actionBarSize"
+        android:titleTextColor="#ffffff">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="ParkPanda"
+            android:textColor="#FFFFFF"
+            android:textAlignment="center"
+            android:paddingTop="10dp"
+            android:textSize="30dp"
+            android:layout_gravity="center"
+            />
+
+        <ImageView
+            android:id="@+id/toolbar_search"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/newfindicon111"
+            android:paddingRight="20dp"
+            android:layout_gravity="right"
+            />
+
+        <ImageView
+            android:id="@+id/toolbar_prev"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/previous"
+            android:layout_gravity="left"
+            />
+
+        <ImageView
+            android:id="@+id/toolbar_control"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:src="@drawable/myseeting"
+            android:layout_gravity="left"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+</LinearLayout>

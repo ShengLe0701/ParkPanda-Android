@@ -1,0 +1,113 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="10dp"
+    android:paddingTop="30dp"
+    android:paddingBottom="10dp"
+    android:paddingRight="10dp"
+    >
+
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="170dp"
+                android:paddingLeft="10dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="FirstName"
+                android:ems="10"
+                android:id="@+id/txt_newaccount_firstname" />
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="wrap_content"
+                android:paddingLeft="10dp"
+
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:hint="LastName"
+                android:ems="10"
+                android:id="@+id/txt_newaccount_lastname"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:hint="Car Licence Number"
+            android:ems="10"
+            android:id="@+id/txt_newaccount_carnumber"
+            android:inputType="textCapSentences|text|textCapCharacters" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+            android:hint="Email"
+            android:ems="10"
+            android:id="@+id/txt_newaccount_email"
+            android:inputType="textEmailAddress" />
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:ems="10"
+            android:textColor="@color/colorPrimary"
+            android:id="@+id/txt_newaccount_password"
+            android:inputType="textPassword"
+            android:password="true" />
+    </android.support.design.widget.TextInputLayout>
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:paddingLeft="10dp"
+            android:layout_height="wrap_content"
+            android:hint="Retype Password"
+            android:textColor="@color/colorPrimary"
+            android:ems="10"
+            android:id="@+id/txt_newaccount_confirmpassword"
+            android:inputType="textPassword"
+            android:password="true" />
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+
+        android:layout_width="match_parent"
+        android:id="@+id/btn_newaccount_save"
+        android:text="Sign Up"
+        android:background="@drawable/ripple_effect"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

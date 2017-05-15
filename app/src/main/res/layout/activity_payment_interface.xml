@@ -1,0 +1,177 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include
+        layout="@layout/payment_action_bar"
+        android:id="@+id/layout_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/layout_content"
+        android:layout_below="@+id/layout_header"
+        >
+    <ImageView
+        android:layout_width="match_parent"
+
+        android:layout_height="400px"
+        android:id="@+id/parkinfo_image" />
+
+    <ImageView
+        android:layout_width="80dp"
+        android:background="@drawable/navigationicon"
+        android:layout_height="80dp"
+        android:layout_alignParentRight="true"
+        android:layout_above="@+id/detail_money"
+        android:layout_margin="10px"
+        android:id="@+id/parkinfo_navigation" />
+
+
+    <TextView
+        android:layout_width="400px"
+        android:layout_height="50px"
+        android:text="$ 4.00/hour"
+        android:id="@+id/detail_money"
+        android:textAlignment="center"
+        android:paddingTop="0px"
+        android:textStyle="bold"
+        android:textSize="40px"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/redbar"
+        android:layout_alignBottom="@+id/parkinfo_image"
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Parking Name"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/textView3"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/parkinfo_image"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="6.00 AM-11.00 PM"
+        android:textSize="18dp"
+        android:id="@+id/parkinfo_name"
+        android:layout_below="@+id/textView3"
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hours of Operation"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/parkinfo_name"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="5dp"
+        android:textSize="18dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="6-7 Weymouth Mews, London W1B 1QE, United Kingdom"
+        android:id="@+id/parkinfo_time"
+        android:layout_below="@+id/textView5"
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Information "
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/parkinfo_time"
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="NCP Portland Place is just a short walk to the open space of Regents Park where you can experience the delights of Queen Mary’s Garden."
+        android:id="@+id/parkinfo_info"
+        android:textSize="18dp"
+        android:layout_below="@+id/textView7"
+        />
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Price"
+            android:id="@+id/sddsds"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/parkinfo_info"
+            />
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="FFF"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/parkinfo_price"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_below="@+id/sddsds"
+            />
+
+
+
+
+    </RelativeLayout>
+    <Button
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginLeft="10px"
+        android:layout_marginRight="10px"
+        android:layout_marginBottom="10dp"
+        android:layout_height="50dp"
+
+        android:background="@drawable/ripple_effect"
+
+        android:id="@+id/parkinfo_reserve_button"
+        android:textColor="#FFFFFF"
+        android:textSize="15dp"
+        android:layout_alignParentBottom="true"
+        android:text="PAYMENT"/>
+</RelativeLayout>

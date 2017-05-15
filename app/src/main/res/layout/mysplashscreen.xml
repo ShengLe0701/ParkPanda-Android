@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:background="@drawable/logo"
+
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:hint="Email"
+        android:layout_marginRight="35px"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/txt_splash_email"
+        android:textColorHint="#FFFFFF"
+        android:singleLine="true"
+        android:gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:textColorHint="#FFFFFF"
+        android:hint="Password"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_marginRight="35px"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/txt_splash_pass"
+        android:layout_below="@id/txt_splash_email"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt_splash_pass"
+        android:text="Sign In"
+        android:textColor="#FFFFFF"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/ripple_effect"
+        android:layout_marginRight="35px"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="10px"
+        android:id="@+id/btn_splash_sign"
+        android:layout_gravity="center_horizontal" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login With Facebook"
+        android:layout_marginRight="35px"
+        android:layout_marginLeft="35px"
+        android:layout_marginTop="10px"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/ripple_effect"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/btn_splash_sign"
+        android:id="@+id/btn_splash_fblog"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="SKIP >>"
+        android:textColor="#FFFFFF"
+        android:id="@+id/txt_splash_skip"
+        android:textSize="50px"
+        android:layout_alignParentTop="true"
+
+        android:layout_marginRight="35px"
+        android:layout_marginTop="60px"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

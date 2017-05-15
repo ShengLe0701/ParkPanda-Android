@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/new_back_ground"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/bottom_toolbar_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            android:text="South Loop Garage"
+
+            android:textColor="#FFFFFF"
+            android:textSize="25dip"
+            android:textStyle="bold"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:paddingTop="5dp"
+            android:id="@+id/bottom_toolbar_nav"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/direction"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+
+        <TextView
+            android:id="@+id/bottom_toolbar_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4.5km"
+            android:textColor="#FFFFFF"
+            android:textSize="12dip"
+            android:layout_below="@id/bottom_toolbar_name"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
